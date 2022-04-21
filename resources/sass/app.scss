@@ -1,1 +1,16 @@
-//
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    .movies_list{
+        width: 80%;
+        list-style: none;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .movie{
+            width: 20%;
+        }
+    }
+}
